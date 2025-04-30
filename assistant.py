@@ -57,7 +57,6 @@ def transcribe_audio(audio_array, sample_rate):
     with torch.no_grad():
         predicted_ids = model.generate(
             inputs.input_features,
-            task="transcribe"
         )
     return processor.batch_decode(predicted_ids, skip_special_tokens=True)[0]
 

@@ -1,4 +1,4 @@
-# Kinyarwanda Voice Assistant
+# Mini-Kinyarwanda Voice Assistant
 
 A humanoid robot voice interaction system that understands and responds to Kinyarwanda speech.
 
